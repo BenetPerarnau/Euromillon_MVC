@@ -95,7 +95,7 @@ public class Euromillones_Controlador implements ActionListener {
 							+ ""+modelo.getEstrellasPremiadas()+"\n"
 							+"Numeros  Jugados: "+modelo.getNumeros()+"\n"
 							+"Estrellas Jugadas: "+modelo.getEstrellas()+"\n"
-							+ "Aciertos: "+modelo.getAciertos()+"\n"
+							+modelo.getAciertos()+"\n"
 							+ "Premio: "+modelo.getPremio()+"€\n";
 					
 					Dialogs.getDialogResultadoJugar(vista, msg);	
